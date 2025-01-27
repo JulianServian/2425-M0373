@@ -244,3 +244,46 @@ h1 {
     margin-top: 10px; 
 }
 
+
+.backgroundfinal{
+    margin-top: 40px;
+    background-image: url(img/tyler-lastovich-AVzByhROPbs-unsplash\ 1.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 1232px;
+    height: 667px;
+    margin-left: 30px;
+}
+
+.contenidofinal{
+    text-align: center;
+    color: white;
+    justify-content: center;
+    width: Hug (650px);
+    height: Fixed (340px);
+}
+.contenidofinal h1{
+    color: white;
+    size: 37px;
+}
+
+.iconofinalhoja{
+
+    margin-top: 30px;
+}
+
+.botonfinal {
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    border-radius: 25px; 
+    padding: 10px 20px; 
+    font-size: 16px;
+    cursor: pointer;
+    outline: none;
+  }
+.fondorosa{
+    background-color: #FCE2D7;
+    align-items: center;
+}
