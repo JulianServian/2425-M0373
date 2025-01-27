@@ -1,0 +1,236 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+#header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+#Logo {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+#Logo img {
+    max-width: 100px;
+}
+
+#navheader {
+    margin-left: auto;
+}
+
+.nav-list {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-list li {
+    margin-left: 20px;
+}
+
+.nav-list li a {
+    text-decoration: none;
+    color: black;
+}
+
+main {
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+h1 {
+    width: 100%;
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 65.34px;
+    text-align: center;
+    color: #2A2A2A;
+}
+
+.h1texto {
+    width: 100%;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    color: #2B2B2B;
+}
+ 
+.contenedor-boton {
+    text-align: center;
+    width: 100%;
+}
+
+.boton {
+    font-size: 16px;
+    background-color: #285E67;
+    padding: 10px 20px;
+    display: inline-block;
+    border-radius: 25px;
+}
+
+.boton button {
+    font-size: 18px;
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.section2 {
+    display: flex;
+    flex-direction: column;
+    background: #F4F4F4;
+    border-radius: 12px;
+    padding: 40px;
+    width: 100%;
+    max-width: 12000px;
+    margin: 30px auto 0;
+    box-sizing: border-box;
+}
+
+.contenedordosimagenes{
+    text-align: center;
+}
+
+.section2h1 {
+    font-size: 2em;
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+.leaf-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.leaf1, .leaf2 {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.leaf2-content {
+    flex: 1;
+}
+
+.leaf1 img{
+    max-width: 100px; 
+    height: 57px; 
+    width: 58px;
+}
+.leaf2 img{
+    max-width: 100px; 
+    height: 57px; 
+    width: 58px;
+
+
+}
+
+.imagensect2 {
+    max-width: 100%; 
+    height: auto; 
+}
+
+.flex-container {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+.section3 {
+    max-width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.main-flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.main-flex-container > img {
+    flex: 1;
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+    min-width: 200px; 
+}
+
+.content-container {
+    flex: 1;
+    min-width: 300px;
+}
+
+.flex-container {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.flex-container img {
+    width: 24px;
+    height: 24px;
+}
+
+.text-content h1 {
+    text-align: left;
+    font-size: 32px;
+}
+
+.text-content p, .flex-container p {
+    font-size: 16px; 
+}
+
+.main-flex-container4 {
+    display: flex;
+    align-items: flex-start; 
+    gap: 20px; 
+}
+
+
+.illustration-img {
+    width: 50%; 
+}
+
+.text-content {
+    width: 50%; 
+}
+
+.leafss {
+    display: flex; 
+    gap: 20px; 
+    margin-top: 20px; 
+}
+
+.leaf12, .leaf22 {
+    width: 50%; 
+    text-align: center; 
+}
+
+.leaf12 img, .leaf22 img {
+    max-width: 100%; 
+    height: auto; 
+}
+
+.leaf12 p, .leaf22 p {
+    margin-top: 10px; 
+}
+
+
+
